@@ -56,7 +56,7 @@ async def start_command(client, message):
     join_button = InlineKeyboardButton("ᴊᴏɪɴ ❤️🚀", url="https://t.me/hvbots4u")
     developer_button = InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ ⚡️", url="https://t.me/hari_813")
     reply_markup = InlineKeyboardMarkup([[join_button, developer_button]])
-    video_file_id = "/app/Jet-Mirror.mp4"
+    video_file_id = ""
     if os.path.exists(video_file_id):
         await client.send_video(
             chat_id=message.chat.id,
@@ -97,7 +97,7 @@ async def handle_message(client, message: Message):
 
     valid_domains = [
     'terabox.com', 'nephobox.com', '4funbox.com', 'mirrobox.com', 
-    'momerybox.com', 'teraboxapp.com', '1024tera.com', 
+    'momerybox.com', 'teraboxapp.com', '1024tera.com', 'terafileshare.com',
     'terabox.app', 'gibibox.com', 'goaibox.com', 'terasharelink.com', 'teraboxlink.com'
     ]
 
